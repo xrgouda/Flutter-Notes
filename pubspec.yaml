@@ -1,0 +1,68 @@
+name: notes
+description: Notes App With Firebase Authentications.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  google_sign_in: ^3.2.1
+  firebase_auth: ^0.5.20
+  firebase_core: any
+  firebase_database: ^1.0.4
+  cloud_firestore: ^0.8.2+3
+  shared_preferences: ^0.4.3
+  font_awesome_flutter: ^8.2.0
+
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  image_path: "assets/images/note.png"
+  android: true
+  ios: true
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+  - family: UbuntuBold
+    fonts:
+    - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+
+  - family: UbuntuBoldItalic
+    fonts:
+    - asset: assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf
+
+  - family: UbuntuItalic
+    fonts:
+    - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+
+  - family: UbuntuMedium
+    fonts:
+    - asset: assets/fonts/Ubuntu/Ubuntu-Medium.ttf
+
+  - family: UbuntuMediumItalic
+    fonts:
+    - asset: assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf
+
+  - family: UbuntuRegular
+    fonts:
+    - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
+
+  assets:
+  - assets/images/note.png
+  - assets/images/black-wood.jpg
