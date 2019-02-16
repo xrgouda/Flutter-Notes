@@ -5,7 +5,7 @@ Notes App With Firebase Authentications.
 ## Getting Started
 
 
-![notes](https://user-images.githubusercontent.com/33687538/52900580-4a553e00-3200-11e9-91f5-394d2a25bdd4.gif)
+![notes](https://user-images.githubusercontent.com/33687538/52900792-4d056280-3203-11e9-9ad8-95d37c81d9d6.gif)
 
 
 
